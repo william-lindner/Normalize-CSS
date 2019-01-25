@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass src/main.scss build/normalize.css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/william-lindner/Normalize-CSS/issues"
   },
-  "homepage": "https://github.com/william-lindner/Normalize-CSS#readme"
+  "homepage": "https://github.com/william-lindner/Normalize-CSS#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
 }

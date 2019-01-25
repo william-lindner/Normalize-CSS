@@ -1,6 +1,13 @@
-$body-bg: rgb(250, 250, 250);
-$text-color: rgb(60, 60, 60);
+$body-color-base: rgb(250, 250, 250);
+$text-color-base: rgb(60, 60, 60);
+$link-color-base: rgb(38, 110, 149);
+$link-color-hover: darken($link-color-base, 5%);
 
 $line-height-base: 1.428571429 !default; // 20/14
 
 $input-height-base: 25px !default;
+
+$padding-base: 8px !default;
+$padding-base-horizontal: $padding-base;
+
+$transition-time: 0.25s;
