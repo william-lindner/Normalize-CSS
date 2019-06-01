@@ -158,7 +158,7 @@ html {
   font-size: $font-size-base;
   font-family: $font-family;
   font-weight: 400;
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
 }
 
 body {
@@ -213,12 +213,12 @@ a,
 a:visited {
   text-decoration: none;
   color: $link-color-base;
-  transition: $transition-time all;
+  transition: $transition-time color ease-in-out;
   &:hover,
   &:active,
   &:focus {
     color: $link-color-hover;
-    outline: 0;
+    // outline: 0;
   }
 }
 
@@ -239,23 +239,23 @@ input[type='submit'],
 }
 
 select {
-  background: $body-color-base
-    url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEuNDEgNC42NyAyLjQ4IDMuMTggMy41NCA0LjY3IDEuNDEgNC42NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIzLjU0IDUuMzMgMi40OCA2LjgyIDEuNDEgNS4zMyAzLjU0IDUuMzMiLz48L3N2Zz4=)
-    no-repeat calc(100% - 5px) 50% !important;
+  // background: $body-color-base
+  //   url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEuNDEgNC42NyAyLjQ4IDMuMTggMy41NCA0LjY3IDEuNDEgNC42NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIzLjU0IDUuMzMgMi40OCA2LjgyIDEuNDEgNS4zMyAzLjU0IDUuMzMiLz48L3N2Zz4=)
+  //   no-repeat calc(100% - 5px) 50% !important;
   width: auto;
   padding-left: $padding-base-horizontal;
-  padding-right: 20px;
+  padding-right: $padding-base-horizontal;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   font-size: 1rem;
-  height: $input-height-base;
-  transition: $transition-time ease-in-out background-color,
-    $transition-time ease-in-out border-color;
-  border-color: darken($body-color-base, 77%);
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
+  // height: $input-height-base;
+  // transition: $transition-time ease-in-out background-color,
+  //   $transition-time ease-in-out border-color;
+  // border-color: darken($body-color-base, 77%);
+  // -moz-appearance: none;
+  // -webkit-appearance: none;
+  // appearance: none;
 }
 
 select:hover {
