@@ -1,6 +1,8 @@
-@import './spacing';
-@import './text';
-@import './input';
-@import './animation';
+@import 'variables/spacing';
+@import 'variables/text';
+@import 'variables/input';
+@import 'variables/animation';
 
 $body-color-base: rgb(250, 250, 250);
+
+$use-beautiful-select: false !default;
