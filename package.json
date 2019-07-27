@@ -1,25 +1,25 @@
 {
-  "name": "normalize-css",
-  "version": "1.0.0",
-  "description": "Resets the User Agent Style Sheet in a browser to a base easier to build on in CSS frameworks.",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "compile:sass": "node-sass src/main.scss build/normalize.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/william-lindner/Normalize-CSS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/william-lindner/Normalize-CSS/issues"
-  },
-  "homepage": "https://github.com/william-lindner/Normalize-CSS#readme",
-  "dependencies": {
-    "node-sass": "^4.11.0"
-  }
+    "name": "normalize-css",
+    "version": "1.0.0",
+    "description": "Resets the User Agent Style Sheet in a browser to a base easier to build on in CSS frameworks.",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "compile": "node-sass src/main.scss build/normalize.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/william-lindner/Normalize-CSS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/william-lindner/Normalize-CSS/issues"
+    },
+    "homepage": "https://github.com/william-lindner/Normalize-CSS#readme",
+    "dependencies": {
+        "node-sass": "^4.11.0"
+    }
 }

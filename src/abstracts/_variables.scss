@@ -1,8 +1,10 @@
-@import 'variables/spacing';
-@import 'variables/text';
-@import 'variables/input';
-@import 'variables/animation';
-
-$body-color-base: rgb(250, 250, 250);
-
+// Options for different looks
 $use-beautiful-select: false !default;
+
+// Core Variables
+$body-color-base: rgb(250, 250, 250);
+$transition-time-base: 0.25s !default;
+
+@import 'variables/layout';
+@import 'variables/typography';
+@import 'variables/forms';

@@ -211,7 +211,7 @@ a,
 a:visited {
     text-decoration: none;
     color: $link-color-base;
-    transition: $transition-time color ease-in-out;
+    transition: $transition-time-base color ease-in-out;
     &:hover,
     &:active,
     &:focus {
