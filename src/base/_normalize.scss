@@ -254,6 +254,8 @@ select {
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
+        transition: $transition-time-base ease-in-out background-color,
+            $transition-time-base ease-in-out border-color;
     }
 
     &:hover {
